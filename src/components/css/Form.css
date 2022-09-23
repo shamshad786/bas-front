@@ -1,0 +1,134 @@
+
+
+.form-container{
+    background-color: #CAE1F5;
+
+}
+
+.inner-form{
+  padding-top: 10px;
+  background-color: white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.application-form-title{
+    background-color: #2C73C0;
+    width: 50%;
+    margin: auto;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.top-heading-bottom-hr-line{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form-container form { 
+    padding: 30px 0px;
+}
+.inner-form  label {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+}
+
+/* .candidate-name{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} */
+
+/* .candidate-name input{
+    padding: 7px;
+    outline: none;
+    border-bottom: 1px solid #2C73C0;
+}
+ */
+
+ .name-field-width-reduce{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.input-icon{
+    font-size: 30px;
+    color: #2C73C0;
+
+}
+
+.profile-photo,.signature-photo, .present-address h3{
+    padding-bottom: 20px;
+}
+
+.details-heading-color{
+    color: gray;
+}
+
+.checked{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* .checkInput{
+    display: inline-block;
+} */
+
+.form-check .form-check-input {
+    float: unset;
+}
+
+.form-switch .form-check-input {
+    margin-left: unset;
+}
+
+.permanent-address h3{
+    padding-bottom: 30px;
+}
+
+.declaration h2{
+    padding: 30px 0px;
+}
+
+.disclaim-inner-div{
+    width: 80%;
+    padding-bottom: 30px;
+    text-align: justify;
+  
+}
+
+.declaration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-loading-div img{
+    width: 8%;
+}
+
+.form-loading-div{
+    padding: 30px 0px;
+}

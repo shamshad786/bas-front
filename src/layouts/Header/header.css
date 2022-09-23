@@ -1,0 +1,358 @@
+.top-bar{
+    background-color: var(--primary);
+    height: 40px;
+    color: var(--heaven);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 0.5px solid #fff;
+}
+
+.tob-middle-bar{
+    height: 116px;
+    background: linear-gradient(270deg, #2D4B8F -31.84%, #2D4B8F 33.88%, rgba(45, 75, 143, 0.732619) 68.22%, rgba(45, 75, 143, 0) 140.41%);
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.top-middle-bar-left-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nia-top-middle-heading-div h1{
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--heaven);
+}
+
+.nia-top-middle-heading-div h5{
+    font-size: 14px;
+    color: var(--heaven);
+    font-weight: 400;
+}
+
+.inner-white-bg-circle-div{
+    background-color: var(--heaven);
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-blue-bg-circle-div{
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.top-bar-inner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-middle-right-icons{
+    color: var(--heaven);
+    font-size: 23px;
+}
+
+.top-middle-cirlce-icon-title{
+    color: var(--heaven);
+    font-size: 13px;
+    /* font-weight: 300; */
+}
+
+.circle-menu-div{
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.notification-drop-down{
+    background-color: white;
+
+}
+
+.hide-noti-download{
+    display: none;
+}
+.notification-drop-down,.noti-links{
+    display: block;
+    /*padding: 12px;
+    */text-align: center;
+    padding: 5px;
+    z-index: 9999;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.noti-links:hover{
+    background-color: #2D4B8F;
+    color: white;
+}
+
+
+.topservicesimg{
+    width: 90px;
+    height: 90px;
+    /* margin-top: 10px; */
+}
+
+.top-middle-cirlce-icon-title{
+    text-align: center;
+}
+
+.top-middle-bar-right-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.tb-icon{
+    padding-left: 20px;
+}
+.user-name{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.call-icon-topbar{
+    margin-right: 10px ;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+}
+
+.contact-details h6{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn{
+    margin-left: 20px;
+   background-color: var(--primary);
+   color: #fff;
+   border: none;
+   outline: none;
+}
+
+.home_container{
+    height: 300px;
+    background: linear-gradient(270deg, #2D4B8F -31.84%, #2D4B8F 33.88%, rgba(45, 75, 143, 0.732619) 68.22%, rgba(45, 75, 143, 0) 140.41%);
+    
+}
+.logo-heading{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+.title{
+    color: var(--heaven);
+    display: flex;
+    padding-top: 3%;
+    
+}
+
+.title h1{
+    font-size: 33px;
+    font-family: "Segoe UI";
+    font-weight: 750;
+    margin-bottom: 10px;
+}
+.all-titles{
+    padding-top: 4%;
+    padding-left: 20px;
+}
+
+.jahaj{
+    z-index: 1
+}
+
+
+.verticle-line{
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        margin: 0 10px;
+        height: 40px;
+}
+
+.active{
+    border-bottom: 2px solid var(--active);
+}
+
+
+.main-menu-bg{
+background-color: #2C73C0;
+height: 60px;
+display: flex;
+align-items: center;
+position: sticky !important;
+top: 0 !important;
+z-index: 999 !important;
+}
+
+.menu-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.menu-ul-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+
+#career-drop-hov:hover .career-drop-div{
+    display: block;
+    background-color: #2C73C0;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150%;
+}
+.career-drop-list{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.career-drop-list:hover{
+    background-color: #2D4B8F;
+}
+
+.career-drop-div{
+    display: none;
+}
+
+#arpt-serv-right-drop-list-id{
+    position: relative;
+}
+
+#arpt-serv-right-drop-list-id:hover .arpt-serv-right-drop-div{
+    display: block;
+    background-color: #2C73C0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: 0;
+    margin: auto;
+    width: 150%;
+}
+
+.arpt-serv-right-drop-list{
+    padding-bottom: 10px;
+}
+
+.arpt-serv-right-drop-div{
+    display: none;
+}
+
+
+.arpt-serv-right-drop-list:hover {
+    background-color: #2D4B8F;
+
+}
+
+#inside-aviation-hov-list{
+    position: relative;
+}
+
+#inside-aviation-hov-list:hover .inside-aviation-drop-down-div{
+    display: block;
+    background-color: #2C73C0;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200%;
+}
+
+.inside-aviation-drop-down-list{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.inside-aviation-drop-down-list:hover{
+    background-color: #2D4B8F;
+}
+
+.inside-aviation-drop-down-div{
+    display: none;
+}
+
+#training-edu-hov-list{
+    position: relative;
+}
+
+#training-edu-hov-list:hover .training-edu-drodown-div{
+    display: block;
+    background-color: #2C73C0;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200%;
+}
+
+.training-edu-drodown-list{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.training-edu-drodown-list:hover{
+    background-color: #2D4B8F;
+}
+
+.training-edu-drodown-div{
+    display: none;
+}
+
+
+.isMobile-div{
+    display: none;
+}

@@ -1,0 +1,1096 @@
+/* candidat page css */
+
+
+.candidate-main-div h3{
+    margin-top: 30px !important;
+    text-align: center;
+    background-color: #2C73C0;
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.candidate-download-icon{
+    font-size: 23px;
+}
+
+.container-inner-div{
+    padding: 30px 0px;
+}
+
+/* Candidate Application form CSS start */
+
+.candidate-form-main-div{
+    background-color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;  
+}
+
+
+.viewCandi-main-container{
+    background-color: #CAE1F5;
+}
+
+
+
+.heading-title-form-div{
+    padding: 30px 0px;
+    background-color: transparent;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+
+
+}
+
+.heading-title-form-div h3{
+    background-color: #2C73C0;
+    padding: 10px 0px;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+}
+
+.cand-form-logo-img{
+    width: 150px;
+    padding-top: 30px;
+}
+
+.candidate-view-form-inner-hading-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hr-line-form-div{
+   margin: 30px 10px;
+}
+
+.candi-form-details-div{
+    display: grid;
+    grid-template-columns: 65% auto;
+    gap: 30px;
+}
+
+.candidate-detail-left-div{
+    padding-left: 20px;
+}
+
+.inner-detail-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.inner-detail-div p{
+   font-weight: bold;
+   color: gray;
+}
+
+.application-n-div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.application-n-div h5{
+    padding-right: 20px;
+}
+
+.form-cand-photo-div, .form-cand-sign-div{
+    padding: 20px;
+}
+
+.cand-phot-form{
+    width: 150px;
+    border: 1px solid black;
+}
+
+.cand-sign-form{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.form-edu-main-div{
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 30px;
+}
+
+
+.form-edu-detail-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.form-edu-left-inner-div{
+    padding-left: 20px;
+}
+
+.form-edu-detail-div p{
+    font-weight: bold;
+   color: gray;
+}
+
+.form-ed-right{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.form-present-address-div {
+    padding: 30px;
+}
+
+
+.form-present-add-detail {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.form-present-add-detail > div{
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.prsnt-add-detail p{
+    font-weight: bold;
+   color: gray;
+}
+
+.same-add-div{
+    padding: 30px;
+    text-align: center;
+}
+
+.same-add-div p, .form-exam-centre-div p {
+    font-weight: bold;
+   color: gray;
+}
+
+.desclaimer-div{
+    padding: 30px;
+}
+
+.form-exam-centre-div{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-payment-div{
+    padding: 30px;
+}
+
+.payment-detail{
+    padding-bottom: 30px;
+}
+
+.form-pay-detail-all{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.form-pay-detail-all h5 {
+    padding-right: 20px;
+}
+
+.print-application-div{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/* Contact page */
+
+.respone-message{
+    color: green;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.contact-main-container{
+    background-color: #CAE1F5;
+    padding: 30px 0px;
+}
+
+.contact-title-div h3{
+    text-align: center;
+    background-color: #2C73C0;
+    width: 30%;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.contact-detail-upper-div{
+    background-color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: 30px 0px;
+
+}
+
+.conat-email-detail-cnt-pg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.conat-email-detail-cnt-pg h4{
+    padding: 30px;
+
+}
+
+.contact-detail-upper-div h4{
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form-heading{
+    background-color: #2C73C0;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form-heading h6{
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.contact-form-icons{
+    font-size: 30px;
+    color: #2C73C0;
+}
+
+.inner-details{
+    color: gray;
+    font-size: 20px;
+}
+
+.cotact-form-lower-div{
+    background-color: white;
+    /* width: 50%; */
+    margin: auto;
+    padding: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.inner-contact-form-field{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.inner-contact-form-field label {
+    font-weight: bold;
+}
+
+.inner-contact-form-field input{
+    padding: 10px;
+}
+
+
+.inner-contact-form-field button{
+    margin-top: 30px !important;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+/* admin page */
+
+
+
+.admin-page-main-container{
+    background-color: #CAE1F5;
+    padding: 30px 0px;
+}
+
+
+.admin-pg-heading-div h3{
+   
+    text-align: center;
+    background-color: #2C73C0;
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 30px ;
+}
+
+.admin-inner-login-form{
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.admin-login-inner-detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.admin-login-inner-detail label{
+    font-weight: bold;
+}
+
+.admin-login-inner-detail input{
+    padding: 10px;
+    width: 100%;
+}
+
+.admin-pg-icon{
+    font-size: 30px;
+    color: #2C73C0;
+}
+
+.query-table{
+    width: 100% !important;
+}
+
+.query-table tr{
+    font-size: 16px;
+    height: 30px;
+}
+
+
+
+
+
+
+/* media application form  */
+
+
+@media (min-width: 1400px)  and (max-width: 2800px){
+
+}
+
+@media (min-width:1200px) and (max-width:1366px) {
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .cotact-form-lower-div {
+        width: 100%;
+        }
+
+    .inner-details {
+    font-size: 17px;
+    }
+
+    .view-form-container-inner-div h5{
+        font-size: 13px;
+    }
+
+    .view-form-container-inner-div p{
+        font-size: 13px;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    .cotact-form-lower-div {
+        width: 100%;
+        }
+
+    .inner-details {
+    font-size: 16px;
+    }
+    
+    .cand-form-logo-img {
+        width: 98px;
+    }
+
+    .heading-title-form-div h3 {
+        font-size: 15px;
+    }
+    .view-form-container-inner-div h5{
+        font-size: 10px;
+    }
+
+    .view-form-container-inner-div p{
+        font-size: 10px;
+    }
+
+    .view-form-container-inner-div{
+        padding: 10px;
+    }
+    
+    .cand-phot-form{
+        width: 90px;
+    }
+
+    .cand-sign-form{
+        width: 90px;
+        height: 36px;
+    }
+
+    .application-n-div h6{
+        font-size: 10px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .inner-details {
+    font-size: 14px;
+    }
+
+    .cotact-form-lower-div {
+    width: 100%;
+    }
+
+    .contact-title-div h3{
+        font-size: 15px;
+    }
+
+    .view-form-container-inner-div{
+        padding: 10px;
+    }
+    .heading-title-form-div h3{
+        font-size: 10px;
+    }
+
+    .view-form-container-inner-div h5{
+        font-size: 10px;
+    }
+
+    .view-form-container-inner-div p{
+        font-size: 10px;
+    }
+
+    .application-n-div h6{
+        font-size: 8px;
+    }
+
+    .form-cand-photo-div h6{
+        font-size: 8px;
+    }
+
+    .application-n-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-edu-main-div{
+        gap: 0px;
+    }
+
+    .form-ed-right h6{
+        font-size: 10px;
+    }
+
+   
+
+    .cand-phot-form {
+        width: 46px;
+    }
+    .cand-sign-form{
+        width: 46px;
+        height: 24px;
+    }
+
+    .form-cand-sign-div h6{
+        font-size: 10px;
+    }
+
+    .cand-form-logo-img{
+        width: 80px;
+    }
+
+    .form-inner-heading-div h2{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+    .form-inner-heading-div h5{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+@media print {
+
+.view-form-container-inner-div h5{
+    font-size: 13px;
+}
+
+.view-form-container-inner-div p{
+    font-size: 13px;
+}
+
+.form-ed-right h6{
+    font-size: 13px;
+}
+
+}
+
+
+
+
+/* Other PAges CSS  */
+.top-banner-pg-div{
+   background: url(/public/images/groundstaff-heading.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+
+.top-banner-pg-div-airport-detail{
+    background: url(/public/images/airportdetail-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner-pg-div-housekeeping{
+    background: url(/public/images/housekeeping-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner-pg-div-portal{
+    background: url(/public/images/portal-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner-pg-div-wheelchair{
+    background: url(/public/images/wheelchair-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.top-banner-pg-div-cafeteria{
+    background: url(/public/images/cafetaria-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-eligibility{
+    background: url(/public/images/eligibility-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-cabin-crew{
+    background: url(/public/images/became-cabin-crew.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-ground-staff{
+    background: url(/public/images/became-ground-staff.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-training-overview{
+    background: url(/public/images/trainig-overview-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-banner-pg-div-aptitude-skill{
+    background: url(/public/images/professional-trainer.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-after-12{
+    background: url(/public/images/job-after-12.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-selection-process{
+    background: url(/public/images/selection-process.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-banner-pg-div-about-us{
+    background: url(/public/images/about-heading-bg.png) no-repeat;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.top-banner-pg-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ot-page-banner-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.ot-page-banner-heading h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.ot-page-banner-heading p{
+    font-size: 23px;
+}
+
+.ot-pg-cnt-main-div{
+    padding: 30px 0px !important;
+}
+
+.ot-page-top-pos1-img{
+    width: 100%;
+}
+
+.ot-page-post-top{
+    padding-bottom: 20px;
+}
+
+.ot-page-top-cnt-inner-left{
+    margin-right: 30px;
+}
+
+.ot-pg-put-right-top-cnt p{
+    line-height: 37px;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.ot-page-cnt-leftidv p{
+    line-height: 37px;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.ot-pg-put-right-top-cnt h3{
+    padding-bottom: 20px;
+}
+.ot-page-cnt-leftidv h3{
+    padding-bottom: 20px;
+}
+
+
+.ot-page-cnt-leftidv{
+    margin-right: 30px;
+}
+
+.ot-page-cnt-form-div{
+    padding: 30px 0px !important;
+}
+
+
+
+.background-attach-fix-img-div{
+    background-image: url(/public/images/background-attact-groundstaff.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div{
+    background-image: url(/public/images/bg-attach-fix2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* Airport Detail*/
+
+.background-attach-fix-img-div-apmd1{
+    background-image: url(/public/airportdetails-img/gsmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-apmd2{
+    background-image: url(/public/airportdetails-img/gsmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* House Keeping*/
+.background-attach-fix-img-div-hkmd1{
+    background-image: url(/public/housekeeping-img/hkmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-hkmd2{
+    background-image: url(/public/housekeeping-img/hkmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* Portal */
+
+.background-attach-fix-img-div-pmd1{
+    background-image: url(/public/portal-img/pmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-pmd2{
+    background-image: url(/public/portal-img/pmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* Wheel chair */
+
+.background-attach-fix-img-div-wcmd1{
+    background-image: url(/public/wheelchair-img/wcmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-wcmd2{
+    background-image: url(/public/wheelchair-img/wcmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* Cafeteria*/
+
+.background-attach-fix-img-div-cfmd1{
+    background-image: url(/public/cafeteria-img/cfmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-cfmd2{
+    background-image: url(/public/cafeteria-img/cfmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/*Eligibility & Etrance*/
+
+.background-attach-fix-img-div-eemd1{
+    background-image: url(/public/eligibility-exam-img/eemd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+.background-attach-fix-img2-div-eemd2{
+    background-image: url(/public/portal-img/pmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/*Became cabin crew */
+
+.background-attach-fix-img-div-bccmd1{
+    background-image: url(/public/became-cabin-crew/bccmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.background-attach-fix-img2-div-bccmd2{
+    background-image: url(/public/became-cabin-crew/bccmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+/* Became Ground Staff*/
+
+.background-attach-fix-img-div-bgsmd1{
+    background-image: url(/public/became-ground-staff-img/bgsmd1.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.background-attach-fix-img2-div-bgsmd2{
+    background-image: url(/public/became-ground-staff-img/bgsmd2.png);
+    height: 350px;
+    background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+
+.ot-page-top-cnt-inner-right-btm{
+    margin-right: 30px;
+}
+
+/* Media Query Other Page */
+
+@media (min-width: 1400px)  and (max-width: 2800px){
+
+    /* Not need */
+
+}
+
+@media (min-width:1200px) and (max-width:1366px) {
+
+     /* Not need */
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+      /* Not need */
+   
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .top-banner-pg-div{
+        height: 165px;
+    }
+    .top-banner-pg-div-airport-detail, .top-banner-pg-div-housekeeping, .top-banner-pg-div-portal, .top-banner-pg-div-wheelchair, .top-banner-pg-div-cafeteria, .top-banner-pg-div-eligibility, .top-banner-pg-div-cabin-crew, .top-banner-pg-div-ground-staff, .top-banner-pg-div-training-overview, .top-banner-pg-div-aptitude-skill, .top-banner-pg-div-after-12, .top-banner-pg-div-selection-process, .top-banner-pg-div-about-us{
+        height: 165px;
+}
+
+    .ot-page-banner-heading h1 {
+    font-size: 35px;
+    }
+
+    .ot-page-banner-heading p {
+    font-size: 18px;
+    }
+
+    .ot-page-top-cnt-inner-left{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .ot-page-cnt-leftidv{
+        padding-bottom: 30px;
+    }
+
+
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+
+    .top-banner-pg-div{
+        height: 165px;
+    }
+
+    .top-banner-pg-div-airport-detail, .top-banner-pg-div-housekeeping, .top-banner-pg-div-portal, .top-banner-pg-div-wheelchair, .top-banner-pg-div-cafeteria, .top-banner-pg-div-eligibility, .top-banner-pg-div-cabin-crew, .top-banner-pg-div-ground-staff, .top-banner-pg-div-training-overview, .top-banner-pg-div-aptitude-skill, .top-banner-pg-div-after-12, .top-banner-pg-div-selection-process, .top-banner-pg-div-about-us{
+        height: 165px;
+}
+
+    .ot-page-banner-heading h1 {
+        font-size: 35px;
+        }
+    
+        .ot-page-banner-heading p {
+        font-size: 18px;
+        }
+
+        .ot-page-top-cnt-inner-left{
+            width: 70%;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+
+    .ot-page-top-cnt-inner-right, .ot-page-cnt-leftidv, .ot-pg-put-right-top-cnt{
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .ot-page-top-cnt-inner-right-btm{
+        margin:  0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .top-banner-pg-div{
+        height: 165px;
+    }
+
+    .top-banner-pg-div-airport-detail, .top-banner-pg-div-housekeeping, .top-banner-pg-div-portal, .top-banner-pg-div-wheelchair, .top-banner-pg-div-cafeteria, .top-banner-pg-div-eligibility, .top-banner-pg-div-cabin-crew, .top-banner-pg-div-ground-staff, .top-banner-pg-div-training-overview, .top-banner-pg-div-aptitude-skill, .top-banner-pg-div-after-12, .top-banner-pg-div-selection-process, .top-banner-pg-div-about-us{
+        height: 165px;
+}
+
+    .ot-page-banner-heading h1 {
+    font-size: 35px;
+    }
+
+    .ot-page-banner-heading p {
+    font-size: 18px;
+    }
+
+    .ot-page-top-cnt-inner-left{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .ot-page-top-cnt-inner-right, .ot-page-cnt-leftidv, .ot-pg-put-right-top-cnt{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .ot-page-top-cnt-inner-right-btm{
+        margin:  0px;
+        padding: 10px;
+    }
+    .ot-page-cnt-leftidv{
+        padding: 20px;
+    }
+
+}
+

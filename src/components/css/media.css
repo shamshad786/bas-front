@@ -1,0 +1,478 @@
+
+/* Mobile Navbar start */
+
+@media screen and (max-width:991px) {
+
+    .user-details{ 
+        display: none !important;
+    }
+
+    .top-middle-bar-right-div{
+        display: none !important; 
+    }
+
+    .menu-bg{
+        display: none !important;
+    }
+
+    .top-middle-bar-left-div{
+        justify-content: space-evenly !important;
+    }
+
+    .isMobile-div{
+    display: block !important;
+   position: relative;
+
+    }
+
+    .isMobile-div button{
+       font-size: 30px;
+       background-color: transparent !important;
+      border: 0.5px solid white;
+      padding: 0px 10px;
+       outline: none;
+       color: white;
+
+    }
+
+    .mobile-menu-list-bg-div{
+        position: absolute;
+        background-color: #2C73C0;
+        color: white;
+        padding: 30px;
+        transition: 4s;
+        -webkit-transition: 4s;
+        -moz-transition: 4s;
+        -ms-transition: 4s;
+        -o-transition: 4s;
+        width: 100%;
+        display: flex;
+}
+ 
+
+    .mobile-notification-drop-down ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;  
+    }
+    /* .mobile-more-notifications-ul h5{
+        display: flex;
+        align-items: center;
+      
+    } */
+
+    .mobile-list-div-heading-list-div{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .mobile-more-notifications-li{
+        padding-bottom: 10px;
+        
+    }
+
+    .mobile-list-div-heading-list-div h6{
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    .career-job-dropdown-div{
+        text-align: center;
+    }
+
+    .career-job-dropdown-div li {
+        padding-bottom: 5px;
+    }
+
+    .career-job-dropdown-list:hover{
+        background-color: #2D4B8F;
+    }
+
+    #reverse-home-container{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .container-inner-div{
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+
+}
+/* Mobile Navbar end */
+
+
+
+
+@media (min-width: 1400px)  and (max-width: 2800px){
+
+}
+
+@media (min-width:1200px) and (max-width:1366px) {
+    
+
+    .nia-top-middle-heading-div h1 {
+        font-size: 19px !important;
+    }
+    .nia-top-middle-heading-div{
+        padding-left: 5px;
+        padding-top: 8px;
+    }
+
+    .gandhi-img-div{
+        width: 100%;
+    }
+
+    .gandhi {
+        width: 100% !important;
+    }
+
+    .azadi-mahotsav-div{
+        width: 100% !important;
+    }
+
+    /* .home-inner-left-wrapper-div{
+        margin-right: 17px;
+    } */
+
+    .home-inner-center-wrapper-div{
+        margin-left: 17px;
+    }
+
+    /* .gallery-iiner-div{
+        padding-bottom: 17px !important;
+    } */
+
+    .user-icon-name-div h4 {
+    font-size: 15px !important;
+    }
+
+    .all-jobs-pots{
+        font-size: 15px !important;
+    }
+
+    .plane-logo {
+        width: 200px !important;
+        height: 80px !important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .nia-top-middle-heading-div h1 {
+        font-size: 14px !important;
+    }
+    .nia-top-middle-heading-div{
+        padding-left: 5px;
+        padding-top: 8px;
+    }
+    .nia-top-middle-heading-div h5 {
+        text-align: center !important;
+    }
+
+    .gandhi-img-div{
+        width: 100%;
+    }
+
+    .gandhi {
+        width: 100% !important;
+    }
+
+    .azadi-mahotsav-div{
+        width: 100% !important;
+    }
+
+    .home-inner-center-wrapper-div{
+        margin-left: 17px;
+    }
+
+    .azadimahotsav{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .all-jobs-pots{
+        font-size: 13px !important;
+    }
+
+    .user-icon-name-div h4{
+        font-size: 16px !important;
+    }
+
+    .check-app-status-div  {
+        text-align: center !important;
+        font-size: 13px !important;
+    }
+
+    .gallery-plane{
+        width: 60px !important;
+        height: 50px !important;
+    }
+
+    .plane-logo {
+        width: 120px !important;
+        height: 70px !important;
+    }
+
+    .menu-ul{
+        font-size: 14px;
+    }
+
+    .footer-menu-list-div a {
+        font-size: 16px !important;
+    }
+
+    .footer-left-list-div li , .footer-center-list-div, .footer-right-list-div{
+        font-size: 15px !important;
+    }
+
+    .copy-right {
+    font-size: 13px !important;
+    text-align: center;
+    }
+
+
+    .home-main-container{
+        padding-top: 30px !important;
+    }
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    .gandhi-img-div{
+        text-align: center;
+    }
+
+    .azadi-mahotsav-div {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .job-notification-main-center-div{
+        margin-bottom: 30px;
+    }
+
+    .gallery-plane {
+    width: 50% !important;
+    height: 150px !important;
+    }
+
+    .plane-logo {
+        width: 100px;
+        height: 60px;
+    }
+
+    .footer-menu-list-div a{
+        font-size: 15px;
+    }
+    
+    .copy-right-main-div{
+        margin: 0 !important;
+        width: 100%;
+    }
+    .home-main-container{
+        padding-top: 50px !important;
+    }
+
+   
+
+    .digital-india-div{
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    .contact-details h6 {
+    font-size: 12px !important;
+    }
+
+    .plane-logo {
+        width: 100px;
+        height: 40px;
+    }
+
+    .cnnContents {
+    font-size: 16px !important;
+    }
+
+    .nia-top-middle-heading-div h1 {
+    font-size: 16px !important;
+    }
+
+    .nia-top-middle-heading-div h5 {
+    font-size: 10px !important;
+    }
+    
+    .isMobile-div button{
+        margin-left: 20px !important;
+    }
+
+    .home-main-container{
+        padding-top: 20px !important;
+    }
+
+    .gandhi-img-div{
+        text-align: center !important;
+        
+    }
+
+    .digital-india-div{
+        margin-bottom: 30px !important;
+    }
+
+    .home-inner-center-wrapper-div{
+        margin-bottom: 30px;
+    }
+
+
+
+    .azadi-mahotsav-div{
+        margin: auto !important;
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+    }
+
+    .footer-menu-list-div a {
+        font-size: small;
+        text-align: center ;
+    }
+
+    .copy-right-main-div{
+        margin: 0 !important;
+    }
+
+    .copy-right {
+    font-size: 15px !important;
+    text-align: center;
+    }
+
+    .footer-inner-details-div li{
+        font-size: 16px !important;
+    }
+
+    .inner-form{
+        width: 100% !important;
+    }
+
+    .inner-form label {
+        font-size: 15px !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    
+
+    .inner-form{
+        width: 100% !important;
+    }
+
+    .inner-form label {
+        font-size: 15px !important;
+    }
+    
+    #top-bar-email-with-icon{
+        display: none !important;
+    }
+
+    .contact-details h6 {
+    font-size: 12px !important;
+    }
+
+    .plane-logo {
+        width: 68px;
+        height: 30px;
+    }
+
+    .cnnContents {
+    font-size: 12px !important;
+    }
+
+    .nia-top-middle-heading-div h1 {
+    font-size: 13px !important;
+    }
+
+    .nia-top-middle-heading-div h5 {
+    font-size: 7px !important;
+    }
+    
+    .isMobile-div button{
+        margin-left: 20px !important;
+    }
+
+    .home-main-container{
+        padding-top: 20px !important;
+    }
+
+    .gandhi-img-div{
+        text-align: center !important;
+    }
+
+
+    .digital-india-div{
+        margin-bottom: 30px !important;
+    }
+
+    .home-inner-center-wrapper-div{
+        margin-bottom: 30px;
+    }
+
+    .home-inner-right-wrapper-div{
+        margin: 0 !important;
+    }
+
+
+    .azadi-mahotsav-div{
+        margin: auto !important;
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+    }
+
+    .footer-menu-list-div a {
+        font-size: small;
+        text-align: center ;
+    }
+
+   .footer-menu-list-div > a:nth-of-type(1), .footer-menu-list-div > a:nth-of-type(2), .footer-menu-list-div > a:nth-of-type(3), .footer-menu-list-div > a:nth-of-type(4), .verticle-line{
+    display: none !important;
+   }
+
+    .copy-right-main-div{
+        margin: 0 !important;
+    }
+
+    .copy-right {
+    font-size: 11px !important;
+    text-align: center;
+    }
+
+    .footer-inner-details-div li{
+        font-size: 13px !important;
+    }
+
+    .all-jobs-pots {
+    font-size: 13px !important;
+    }
+
+    .all-jobs-pots h5{
+        font-size: 15px;
+    }
+
+    .latest-update-div p {
+    font-size: 13px;
+    }
+
+    .candidate-main-div h3{
+        font-size: 15px;
+    }
+
+}

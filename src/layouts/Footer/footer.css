@@ -1,0 +1,82 @@
+.footer-main-bg-div{
+    background-color: #2C73C0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-family: "Segoe UI";
+    color: white;
+}
+
+.footer-menu-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-blue-bg-div{
+    background: linear-gradient(90deg, #2D4B8F 0%, rgba(45, 75, 143, 0) 197.25%);
+    color: var(--heaven);
+}
+
+ul{
+    list-style: none;
+}
+.phone-num{
+    font-size: 12px;
+   padding-left: 90px;
+}
+
+.footer-inner-details-div{
+ text-align: center;
+ padding-top: 30px;
+
+}
+
+
+.footer-inner-details-div h4{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-inner-details-div li {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.copy-right-main-div{
+    background-color: var(--primary);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 300px;
+    border-bottom: 2px solid var(--heaven);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.copy-right{
+    font-size: 18px;
+}
+
+.kwiqsoft-div{
+    background-color: var(--primary);
+    margin-top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kwiqsoft-div p {
+    display: none;
+}
+
+.kwiqsoft:hover{
+    color: var(--footerYellow);
+    font-weight: 700;
+}

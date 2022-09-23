@@ -1,0 +1,60 @@
+*,
+*:after,
+*::before {
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:active,
+:hover,
+:focus {
+	outline: 0 !important;
+	outline-offset: 0;
+}
+a {
+	text-decoration: none;
+	color: unset;
+}
+a:hover{
+	color: unset;
+}
+a:focus,
+a:active {
+	color: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul,
+ol,
+.row>* {
+	margin: 0 ;
+	padding: 0 ;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+	padding: 0;
+}
+
+:root {
+	--primary: #2D4B8F;
+    --secondary:#F0EFEF;
+    --active: #ECAA3C;
+    --textColor: #000000;
+    --footerYellow: #D7FCCF;
+    --heaven: #FFF;
+	--box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	--menu: #1D50D3;
+}

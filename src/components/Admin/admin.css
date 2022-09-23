@@ -1,0 +1,141 @@
+.admin-heading-div{
+    text-align: center;
+    padding-top: 70px;
+   
+}
+
+.table-div{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+th, td {
+    font-size: 13px;
+}
+
+.admin-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.admin-logout{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: tomato;
+    color: var(--heaven);
+}
+
+.contact-query-btn{
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: var(--primary);
+    color: var(--heaven);
+}
+
+.go-back-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 50px;
+}
+
+.go-back{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+  
+  .page-item{
+    margin-top: 20px 10px;
+  }
+  
+  .pageNumbers li.active{
+    background-color: red;
+  }
+  
+  
+  .pageNumbers{
+    list-style: none;
+    display: flex;
+  }
+  
+  
+  .pageNumbers li{
+    padding:5px;
+    border:1px solid black;
+   cursor: pointer;
+  }
+
+  .notification-url-close{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  #notification-url-icon{
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .gallery-main-div{
+    margin-bottom: 30px;
+  }
+
+  .gallery-upload-input{
+    display: none;
+  }
+
+  .gallery-upload-icon-bg{
+    background-color: #2D4B8E;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+  .gallery-upload-icon{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .gallery-image-list{
+    max-width: 1366px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    overflow-y: scroll;
+  }
+
+  .galerry-list{
+    margin: 5px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .galleryImgDelIcon{
+    font-size: 25px;
+    color: tomato;
+    cursor: pointer;
+  }
